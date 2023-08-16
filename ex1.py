@@ -8,7 +8,7 @@
 import json
 
 
-def file_transform_to_json(filename):
+def file_transform_to_json1(filename):
     with (open(filename, 'r', encoding='utf-8') as file1,
     open(f'{filename}.json', 'w', encoding='utf-8') as file2):
         data = file1.readlines()
@@ -20,9 +20,24 @@ def file_transform_to_json(filename):
     print(data)
 
 
+def file_transform_to_json2(filename):
+    with (open(filename, 'r', encoding='utf-8') as file1,
+    open(f'{filename}2.json', 'w', encoding='utf-8') as file3):
+        data = file1.readlines()
+        dict_to_save = {}
+        for line in data:
+            key, value = line.strip().split(' ')
+            if key.title() in dict_to_save.keys():
+                dict_to_save[key.title()].append(value)
+            else:
+                dict_to_save[key.title()] = [value]
+        json.dump(dict_to_save, file3, ensure_ascii=False, indent=2)
+    print(data)
+
 
 
 
 
 filename = 'res.txt'
-file_transform_to_json(filename)
+file_transform_to_json1(filename)
+file_transform_to_json2(filename)
