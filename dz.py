@@ -12,8 +12,10 @@ import json
 import os
 from my_package import my_func
 from my_package import my_csv
+from my_package import my_pickle
 
 
 
 my_func('venv')
 my_csv()
+my_pickle()
