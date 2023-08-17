@@ -1,1 +1,3307 @@
-["venv", "directiry", ".gitignore", "file", "pyvenv.cfg", "file", "venv\\Lib", "directiry", "venv\\Lib\\site-packages", "directiry", "distutils-precedence.pth", "file", "pip-23.2.1.virtualenv", "file", "setuptools-68.0.0.virtualenv", "file", "wheel-0.40.0.virtualenv", "file", "_virtualenv.pth", "file", "_virtualenv.py", "file", "venv\\Lib\\site-packages\\pip", "directiry", "py.typed", "file", "__init__.py", "file", "__main__.py", "file", "__pip-runner__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal", "directiry", "build_env.py", "file", "cache.py", "file", "configuration.py", "file", "exceptions.py", "file", "main.py", "file", "pyproject.py", "file", "self_outdated_check.py", "file", "wheel_builder.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\cli", "directiry", "autocompletion.py", "file", "base_command.py", "file", "cmdoptions.py", "file", "command_context.py", "file", "main.py", "file", "main_parser.py", "file", "parser.py", "file", "progress_bars.py", "file", "req_command.py", "file", "spinners.py", "file", "status_codes.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\commands", "directiry", "cache.py", "file", "check.py", "file", "completion.py", "file", "configuration.py", "file", "debug.py", "file", "download.py", "file", "freeze.py", "file", "hash.py", "file", "help.py", "file", "index.py", "file", "inspect.py", "file", "install.py", "file", "list.py", "file", "search.py", "file", "show.py", "file", "uninstall.py", "file", "wheel.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\distributions", "directiry", "base.py", "file", "installed.py", "file", "sdist.py", "file", "wheel.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\index", "directiry", "collector.py", "file", "package_finder.py", "file", "sources.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\locations", "directiry", "base.py", "file", "_distutils.py", "file", "_sysconfig.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\metadata", "directiry", "base.py", "file", "pkg_resources.py", "file", "_json.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib", "directiry", "_compat.py", "file", "_dists.py", "file", "_envs.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\models", "directiry", "candidate.py", "file", "direct_url.py", "file", "format_control.py", "file", "index.py", "file", "installation_report.py", "file", "link.py", "file", "scheme.py", "file", "search_scope.py", "file", "selection_prefs.py", "file", "target_python.py", "file", "wheel.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\network", "directiry", "auth.py", "file", "cache.py", "file", "download.py", "file", "lazy_wheel.py", "file", "session.py", "file", "utils.py", "file", "xmlrpc.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\operations", "directiry", "check.py", "file", "freeze.py", "file", "prepare.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build", "directiry", "build_tracker.py", "file", "metadata.py", "file", "metadata_editable.py", "file", "metadata_legacy.py", "file", "wheel.py", "file", "wheel_editable.py", "file", "wheel_legacy.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\operations\\install", "directiry", "editable_legacy.py", "file", "wheel.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\req", "directiry", "constructors.py", "file", "req_file.py", "file", "req_install.py", "file", "req_set.py", "file", "req_uninstall.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\resolution", "directiry", "base.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\legacy", "directiry", "resolver.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib", "directiry", "base.py", "file", "candidates.py", "file", "factory.py", "file", "found_candidates.py", "file", "provider.py", "file", "reporter.py", "file", "requirements.py", "file", "resolver.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\utils", "directiry", "appdirs.py", "file", "compat.py", "file", "compatibility_tags.py", "file", "datetime.py", "file", "deprecation.py", "file", "direct_url_helpers.py", "file", "egg_link.py", "file", "encoding.py", "file", "entrypoints.py", "file", "filesystem.py", "file", "filetypes.py", "file", "glibc.py", "file", "hashes.py", "file", "inject_securetransport.py", "file", "logging.py", "file", "misc.py", "file", "models.py", "file", "packaging.py", "file", "setuptools_build.py", "file", "subprocess.py", "file", "temp_dir.py", "file", "unpacking.py", "file", "urls.py", "file", "virtualenv.py", "file", "wheel.py", "file", "_jaraco_text.py", "file", "_log.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_internal\\vcs", "directiry", "bazaar.py", "file", "git.py", "file", "mercurial.py", "file", "subversion.py", "file", "versioncontrol.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor", "directiry", "six.py", "file", "typing_extensions.py", "file", "vendor.txt", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol", "directiry", "adapter.py", "file", "cache.py", "file", "compat.py", "file", "controller.py", "file", "filewrapper.py", "file", "heuristics.py", "file", "serialize.py", "file", "wrapper.py", "file", "_cmd.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\caches", "directiry", "file_cache.py", "file", "redis_cache.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\certifi", "directiry", "cacert.pem", "file", "core.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\chardet", "directiry", "big5freq.py", "file", "big5prober.py", "file", "chardistribution.py", "file", "charsetgroupprober.py", "file", "charsetprober.py", "file", "codingstatemachine.py", "file", "codingstatemachinedict.py", "file", "cp949prober.py", "file", "enums.py", "file", "escprober.py", "file", "escsm.py", "file", "eucjpprober.py", "file", "euckrfreq.py", "file", "euckrprober.py", "file", "euctwfreq.py", "file", "euctwprober.py", "file", "gb2312freq.py", "file", "gb2312prober.py", "file", "hebrewprober.py", "file", "jisfreq.py", "file", "johabfreq.py", "file", "johabprober.py", "file", "jpcntx.py", "file", "langbulgarianmodel.py", "file", "langgreekmodel.py", "file", "langhebrewmodel.py", "file", "langhungarianmodel.py", "file", "langrussianmodel.py", "file", "langthaimodel.py", "file", "langturkishmodel.py", "file", "latin1prober.py", "file", "macromanprober.py", "file", "mbcharsetprober.py", "file", "mbcsgroupprober.py", "file", "mbcssm.py", "file", "resultdict.py", "file", "sbcharsetprober.py", "file", "sbcsgroupprober.py", "file", "sjisprober.py", "file", "universaldetector.py", "file", "utf1632prober.py", "file", "utf8prober.py", "file", "version.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\cli", "directiry", "chardetect.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\metadata", "directiry", "languages.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\colorama", "directiry", "ansi.py", "file", "ansitowin32.py", "file", "initialise.py", "file", "win32.py", "file", "winterm.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests", "directiry", "ansitowin32_test.py", "file", "ansi_test.py", "file", "initialise_test.py", "file", "isatty_test.py", "file", "utils.py", "file", "winterm_test.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\distlib", "directiry", "compat.py", "file", "database.py", "file", "index.py", "file", "locators.py", "file", "manifest.py", "file", "markers.py", "file", "metadata.py", "file", "resources.py", "file", "scripts.py", "file", "t32.exe", "file", "t64-arm.exe", "file", "t64.exe", "file", "util.py", "file", "version.py", "file", "w32.exe", "file", "w64-arm.exe", "file", "w64.exe", "file", "wheel.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\distro", "directiry", "distro.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\idna", "directiry", "codec.py", "file", "compat.py", "file", "core.py", "file", "idnadata.py", "file", "intranges.py", "file", "package_data.py", "file", "uts46data.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\msgpack", "directiry", "exceptions.py", "file", "ext.py", "file", "fallback.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\packaging", "directiry", "markers.py", "file", "requirements.py", "file", "specifiers.py", "file", "tags.py", "file", "utils.py", "file", "version.py", "file", "_manylinux.py", "file", "_musllinux.py", "file", "_structures.py", "file", "__about__.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pkg_resources", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\platformdirs", "directiry", "android.py", "file", "api.py", "file", "macos.py", "file", "unix.py", "file", "version.py", "file", "windows.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pygments", "directiry", "cmdline.py", "file", "console.py", "file", "filter.py", "file", "formatter.py", "file", "lexer.py", "file", "modeline.py", "file", "plugin.py", "file", "regexopt.py", "file", "scanner.py", "file", "sphinxext.py", "file", "style.py", "file", "token.py", "file", "unistring.py", "file", "util.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\filters", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters", "directiry", "bbcode.py", "file", "groff.py", "file", "html.py", "file", "img.py", "file", "irc.py", "file", "latex.py", "file", "other.py", "file", "pangomarkup.py", "file", "rtf.py", "file", "svg.py", "file", "terminal.py", "file", "terminal256.py", "file", "_mapping.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers", "directiry", "python.py", "file", "_mapping.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\styles", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing", "directiry", "actions.py", "file", "common.py", "file", "core.py", "file", "exceptions.py", "file", "helpers.py", "file", "results.py", "file", "testing.py", "file", "unicode.py", "file", "util.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\diagram", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks", "directiry", "_compat.py", "file", "_impl.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks\\_in_process", "directiry", "_in_process.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\requests", "directiry", "adapters.py", "file", "api.py", "file", "auth.py", "file", "certs.py", "file", "compat.py", "file", "cookies.py", "file", "exceptions.py", "file", "help.py", "file", "hooks.py", "file", "models.py", "file", "packages.py", "file", "sessions.py", "file", "status_codes.py", "file", "structures.py", "file", "utils.py", "file", "_internal_utils.py", "file", "__init__.py", "file", "__version__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib", "directiry", "providers.py", "file", "reporters.py", "file", "resolvers.py", "file", "structs.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\compat", "directiry", "collections_abc.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\rich", "directiry", "abc.py", "file", "align.py", "file", "ansi.py", "file", "bar.py", "file", "box.py", "file", "cells.py", "file", "color.py", "file", "color_triplet.py", "file", "columns.py", "file", "console.py", "file", "constrain.py", "file", "containers.py", "file", "control.py", "file", "default_styles.py", "file", "diagnose.py", "file", "emoji.py", "file", "errors.py", "file", "filesize.py", "file", "file_proxy.py", "file", "highlighter.py", "file", "json.py", "file", "jupyter.py", "file", "layout.py", "file", "live.py", "file", "live_render.py", "file", "logging.py", "file", "markup.py", "file", "measure.py", "file", "padding.py", "file", "pager.py", "file", "palette.py", "file", "panel.py", "file", "pretty.py", "file", "progress.py", "file", "progress_bar.py", "file", "prompt.py", "file", "protocol.py", "file", "region.py", "file", "repr.py", "file", "rule.py", "file", "scope.py", "file", "screen.py", "file", "segment.py", "file", "spinner.py", "file", "status.py", "file", "style.py", "file", "styled.py", "file", "syntax.py", "file", "table.py", "file", "terminal_theme.py", "file", "text.py", "file", "theme.py", "file", "themes.py", "file", "traceback.py", "file", "tree.py", "file", "_cell_widths.py", "file", "_emoji_codes.py", "file", "_emoji_replace.py", "file", "_export_format.py", "file", "_extension.py", "file", "_fileno.py", "file", "_inspect.py", "file", "_log_render.py", "file", "_loop.py", "file", "_null_file.py", "file", "_palettes.py", "file", "_pick.py", "file", "_ratio.py", "file", "_spinners.py", "file", "_stack.py", "file", "_timer.py", "file", "_win32_console.py", "file", "_windows.py", "file", "_windows_renderer.py", "file", "_wrap.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity", "directiry", "after.py", "file", "before.py", "file", "before_sleep.py", "file", "nap.py", "file", "retry.py", "file", "stop.py", "file", "tornadoweb.py", "file", "wait.py", "file", "_asyncio.py", "file", "_utils.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\tomli", "directiry", "_parser.py", "file", "_re.py", "file", "_types.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3", "directiry", "connection.py", "file", "connectionpool.py", "file", "exceptions.py", "file", "fields.py", "file", "filepost.py", "file", "poolmanager.py", "file", "request.py", "file", "response.py", "file", "_collections.py", "file", "_version.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib", "directiry", "appengine.py", "file", "ntlmpool.py", "file", "pyopenssl.py", "file", "securetransport.py", "file", "socks.py", "file", "_appengine_environ.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport", "directiry", "bindings.py", "file", "low_level.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages", "directiry", "six.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports", "directiry", "makefile.py", "file", "weakref_finalize.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util", "directiry", "connection.py", "file", "proxy.py", "file", "queue.py", "file", "request.py", "file", "response.py", "file", "retry.py", "file", "ssltransport.py", "file", "ssl_.py", "file", "ssl_match_hostname.py", "file", "timeout.py", "file", "url.py", "file", "wait.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip\\_vendor\\webencodings", "directiry", "labels.py", "file", "mklabels.py", "file", "tests.py", "file", "x_user_defined.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pip-23.2.1.dist-info", "directiry", "AUTHORS.txt", "file", "entry_points.txt", "file", "INSTALLER", "file", "LICENSE.txt", "file", "METADATA", "file", "RECORD", "file", "top_level.txt", "file", "WHEEL", "file", "venv\\Lib\\site-packages\\pkg_resources", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\extern", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\extern\\__pycache__", "directiry", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor", "directiry", "typing_extensions.py", "file", "zipp.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources", "directiry", "abc.py", "file", "readers.py", "file", "simple.py", "file", "_adapters.py", "file", "_common.py", "file", "_compat.py", "file", "_itertools.py", "file", "_legacy.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco", "directiry", "context.py", "file", "functools.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__pycache__", "directiry", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__pycache__", "directiry", "context.cpython-311.pyc", "file", "functools.cpython-311.pyc", "file", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools", "directiry", "more.py", "file", "recipes.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__pycache__", "directiry", "more.cpython-311.pyc", "file", "recipes.cpython-311.pyc", "file", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging", "directiry", "markers.py", "file", "metadata.py", "file", "requirements.py", "file", "specifiers.py", "file", "tags.py", "file", "utils.py", "file", "version.py", "file", "_elffile.py", "file", "_manylinux.py", "file", "_musllinux.py", "file", "_parser.py", "file", "_structures.py", "file", "_tokenizer.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__", "directiry", "markers.cpython-311.pyc", "file", "requirements.cpython-311.pyc", "file", "specifiers.cpython-311.pyc", "file", "tags.cpython-311.pyc", "file", "utils.cpython-311.pyc", "file", "version.cpython-311.pyc", "file", "_elffile.cpython-311.pyc", "file", "_manylinux.cpython-311.pyc", "file", "_musllinux.cpython-311.pyc", "file", "_parser.cpython-311.pyc", "file", "_structures.cpython-311.pyc", "file", "_tokenizer.cpython-311.pyc", "file", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs", "directiry", "android.py", "file", "api.py", "file", "macos.py", "file", "unix.py", "file", "version.py", "file", "windows.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__pycache__", "directiry", "api.cpython-311.pyc", "file", "version.cpython-311.pyc", "file", "windows.cpython-311.pyc", "file", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__", "directiry", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\pkg_resources\\__pycache__", "directiry", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\setuptools", "directiry", "archive_util.py", "file", "build_meta.py", "file", "cli-32.exe", "file", "cli-64.exe", "file", "cli-arm64.exe", "file", "cli.exe", "file", "depends.py", "file", "dep_util.py", "file", "discovery.py", "file", "dist.py", "file", "errors.py", "file", "extension.py", "file", "glob.py", "file", "gui-32.exe", "file", "gui-64.exe", "file", "gui-arm64.exe", "file", "gui.exe", "file", "installer.py", "file", "launch.py", "file", "logging.py", "file", "monkey.py", "file", "msvc.py", "file", "namespaces.py", "file", "package_index.py", "file", "py312compat.py", "file", "sandbox.py", "file", "script (dev).tmpl", "file", "script.tmpl", "file", "unicode_utils.py", "file", "version.py", "file", "warnings.py", "file", "wheel.py", "file", "windows_support.py", "file", "_entry_points.py", "file", "_imp.py", "file", "_importlib.py", "file", "_itertools.py", "file", "_normalization.py", "file", "_path.py", "file", "_reqs.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\command", "directiry", "alias.py", "file", "bdist_egg.py", "file", "bdist_rpm.py", "file", "build.py", "file", "build_clib.py", "file", "build_ext.py", "file", "build_py.py", "file", "develop.py", "file", "dist_info.py", "file", "easy_install.py", "file", "editable_wheel.py", "file", "egg_info.py", "file", "install.py", "file", "install_egg_info.py", "file", "install_lib.py", "file", "install_scripts.py", "file", "launcher manifest.xml", "file", "register.py", "file", "rotate.py", "file", "saveopts.py", "file", "sdist.py", "file", "setopt.py", "file", "test.py", "file", "upload.py", "file", "upload_docs.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\config", "directiry", "expand.py", "file", "pyprojecttoml.py", "file", "setupcfg.py", "file", "_apply_pyprojecttoml.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject", "directiry", "error_reporting.py", "file", "extra_validations.py", "file", "fastjsonschema_exceptions.py", "file", "fastjsonschema_validations.py", "file", "formats.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\extern", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_distutils", "directiry", "archive_util.py", "file", "bcppcompiler.py", "file", "ccompiler.py", "file", "cmd.py", "file", "config.py", "file", "core.py", "file", "cygwinccompiler.py", "file", "debug.py", "file", "dep_util.py", "file", "dir_util.py", "file", "dist.py", "file", "errors.py", "file", "extension.py", "file", "fancy_getopt.py", "file", "filelist.py", "file", "file_util.py", "file", "log.py", "file", "msvc9compiler.py", "file", "msvccompiler.py", "file", "py38compat.py", "file", "py39compat.py", "file", "spawn.py", "file", "sysconfig.py", "file", "text_file.py", "file", "unixccompiler.py", "file", "util.py", "file", "version.py", "file", "versionpredicate.py", "file", "_collections.py", "file", "_functools.py", "file", "_log.py", "file", "_macos_compat.py", "file", "_msvccompiler.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_distutils\\command", "directiry", "bdist.py", "file", "bdist_dumb.py", "file", "bdist_rpm.py", "file", "build.py", "file", "build_clib.py", "file", "build_ext.py", "file", "build_py.py", "file", "build_scripts.py", "file", "check.py", "file", "clean.py", "file", "config.py", "file", "install.py", "file", "install_data.py", "file", "install_egg_info.py", "file", "install_headers.py", "file", "install_lib.py", "file", "install_scripts.py", "file", "py37compat.py", "file", "register.py", "file", "sdist.py", "file", "upload.py", "file", "_framework_compat.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor", "directiry", "ordered_set.py", "file", "typing_extensions.py", "file", "zipp.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata", "directiry", "_adapters.py", "file", "_collections.py", "file", "_compat.py", "file", "_functools.py", "file", "_itertools.py", "file", "_meta.py", "file", "_py39compat.py", "file", "_text.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources", "directiry", "abc.py", "file", "readers.py", "file", "simple.py", "file", "_adapters.py", "file", "_common.py", "file", "_compat.py", "file", "_itertools.py", "file", "_legacy.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco", "directiry", "context.py", "file", "functools.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text", "directiry", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools", "directiry", "more.py", "file", "recipes.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging", "directiry", "markers.py", "file", "metadata.py", "file", "requirements.py", "file", "specifiers.py", "file", "tags.py", "file", "utils.py", "file", "version.py", "file", "_elffile.py", "file", "_manylinux.py", "file", "_musllinux.py", "file", "_parser.py", "file", "_structures.py", "file", "_tokenizer.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli", "directiry", "_parser.py", "file", "_re.py", "file", "_types.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\setuptools-68.0.0.dist-info", "directiry", "entry_points.txt", "file", "INSTALLER", "file", "LICENSE", "file", "METADATA", "file", "RECORD", "file", "top_level.txt", "file", "WHEEL", "file", "venv\\Lib\\site-packages\\wheel", "directiry", "bdist_wheel.py", "file", "macosx_libfile.py", "file", "metadata.py", "file", "util.py", "file", "wheelfile.py", "file", "_setuptools_logging.py", "file", "__init__.py", "file", "__main__.py", "file", "venv\\Lib\\site-packages\\wheel\\cli", "directiry", "convert.py", "file", "pack.py", "file", "tags.py", "file", "unpack.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\wheel\\vendored", "directiry", "vendor.txt", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\wheel\\vendored\\packaging", "directiry", "markers.py", "file", "requirements.py", "file", "specifiers.py", "file", "tags.py", "file", "utils.py", "file", "version.py", "file", "_elffile.py", "file", "_manylinux.py", "file", "_musllinux.py", "file", "_parser.py", "file", "_structures.py", "file", "_tokenizer.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info", "directiry", "entry_points.txt", "file", "INSTALLER", "file", "LICENSE.txt", "file", "METADATA", "file", "RECORD", "file", "WHEEL", "file", "venv\\Lib\\site-packages\\_distutils_hack", "directiry", "override.py", "file", "__init__.py", "file", "venv\\Lib\\site-packages\\_distutils_hack\\__pycache__", "directiry", "__init__.cpython-311.pyc", "file", "venv\\Lib\\site-packages\\__pycache__", "directiry", "_virtualenv.cpython-311.pyc", "file", "venv\\Scripts", "directiry", "activate", "file", "activate.bat", "file", "activate.fish", "file", "activate.nu", "file", "activate.ps1", "file", "activate_this.py", "file", "deactivate.bat", "file", "deactivate.nu", "file", "pip-3.11.exe", "file", "pip.exe", "file", "pip3.11.exe", "file", "pip3.exe", "file", "pydoc.bat", "file", "python.exe", "file", "pythonw.exe", "file", "wheel-3.11.exe", "file", "wheel.exe", "file", "wheel3.11.exe", "file", "wheel3.exe", "file"]
+{
+  "venv": [
+    "directory",
+    12121830,
+    "C:\\Users\\user\\PycharmProjects\\sem8"
+  ],
+  ".gitignore": [
+    "file",
+    42,
+    "venv"
+  ],
+  "pyvenv.cfg": [
+    "file",
+    406,
+    "venv"
+  ],
+  "venv\\Lib": [
+    "directory",
+    10711181,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv"
+  ],
+  "venv\\Lib\\site-packages": [
+    "directory",
+    10711181,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib"
+  ],
+  "distutils-precedence.pth": [
+    "file",
+    151,
+    "venv\\Lib\\site-packages"
+  ],
+  "pip-23.2.1.virtualenv": [
+    "file",
+    0,
+    "venv\\Lib\\site-packages"
+  ],
+  "setuptools-68.0.0.virtualenv": [
+    "file",
+    0,
+    "venv\\Lib\\site-packages"
+  ],
+  "wheel-0.40.0.virtualenv": [
+    "file",
+    0,
+    "venv\\Lib\\site-packages"
+  ],
+  "_virtualenv.pth": [
+    "file",
+    18,
+    "venv\\Lib\\site-packages"
+  ],
+  "_virtualenv.py": [
+    "file",
+    5770,
+    "venv\\Lib\\site-packages"
+  ],
+  "venv\\Lib\\site-packages\\pip": [
+    "directory",
+    6978852,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "py.typed": [
+    "file",
+    286,
+    "venv\\Lib\\site-packages\\pip"
+  ],
+  "__init__.py": [
+    "file",
+    6299,
+    "venv\\Lib\\site-packages\\_distutils_hack"
+  ],
+  "__main__.py": [
+    "file",
+    455,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "__pip-runner__.py": [
+    "file",
+    1444,
+    "venv\\Lib\\site-packages\\pip"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal": [
+    "directory",
+    1048452,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip"
+  ],
+  "build_env.py": [
+    "file",
+    10243,
+    "venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "cache.py": [
+    "file",
+    1535,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "configuration.py": [
+    "file",
+    9815,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "exceptions.py": [
+    "file",
+    8217,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "main.py": [
+    "file",
+    2816,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "pyproject.py": [
+    "file",
+    7161,
+    "venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "self_outdated_check.py": [
+    "file",
+    8167,
+    "venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "wheel_builder.py": [
+    "file",
+    11842,
+    "venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\cli": [
+    "directory",
+    89951,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "autocompletion.py": [
+    "file",
+    6676,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "base_command.py": [
+    "file",
+    8726,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "cmdoptions.py": [
+    "file",
+    30030,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "command_context.py": [
+    "file",
+    774,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "main_parser.py": [
+    "file",
+    4338,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "parser.py": [
+    "file",
+    10817,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "progress_bars.py": [
+    "file",
+    1968,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "req_command.py": [
+    "file",
+    18440,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "spinners.py": [
+    "file",
+    5118,
+    "venv\\Lib\\site-packages\\pip\\_internal\\cli"
+  ],
+  "status_codes.py": [
+    "file",
+    4235,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\commands": [
+    "directory",
+    116829,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "check.py": [
+    "file",
+    4872,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "completion.py": [
+    "file",
+    3986,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "debug.py": [
+    "file",
+    139,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "download.py": [
+    "file",
+    6096,
+    "venv\\Lib\\site-packages\\pip\\_internal\\network"
+  ],
+  "freeze.py": [
+    "file",
+    9816,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations"
+  ],
+  "hash.py": [
+    "file",
+    1703,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "help.py": [
+    "file",
+    3879,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "index.py": [
+    "file",
+    20834,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "inspect.py": [
+    "file",
+    3188,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "install.py": [
+    "file",
+    30153,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "list.py": [
+    "file",
+    12457,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "search.py": [
+    "file",
+    5697,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "show.py": [
+    "file",
+    6419,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "uninstall.py": [
+    "file",
+    3886,
+    "venv\\Lib\\site-packages\\pip\\_internal\\commands"
+  ],
+  "wheel.py": [
+    "file",
+    8608,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\distributions": [
+    "directory",
+    10466,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "base.py": [
+    "file",
+    5220,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "installed.py": [
+    "file",
+    729,
+    "venv\\Lib\\site-packages\\pip\\_internal\\distributions"
+  ],
+  "sdist.py": [
+    "file",
+    19232,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\index": [
+    "directory",
+    60963,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "collector.py": [
+    "file",
+    16504,
+    "venv\\Lib\\site-packages\\pip\\_internal\\index"
+  ],
+  "package_finder.py": [
+    "file",
+    37873,
+    "venv\\Lib\\site-packages\\pip\\_internal\\index"
+  ],
+  "sources.py": [
+    "file",
+    6556,
+    "venv\\Lib\\site-packages\\pip\\_internal\\index"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\locations": [
+    "directory",
+    31701,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "_distutils.py": [
+    "file",
+    6100,
+    "venv\\Lib\\site-packages\\pip\\_internal\\locations"
+  ],
+  "_sysconfig.py": [
+    "file",
+    7680,
+    "venv\\Lib\\site-packages\\pip\\_internal\\locations"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\metadata": [
+    "directory",
+    59530,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "pkg_resources.py": [
+    "file",
+    9773,
+    "venv\\Lib\\site-packages\\pip\\_internal\\metadata"
+  ],
+  "_json.py": [
+    "file",
+    2595,
+    "venv\\Lib\\site-packages\\pip\\_internal\\metadata"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib": [
+    "directory",
+    17605,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal\\metadata"
+  ],
+  "_compat.py": [
+    "file",
+    2925,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "_dists.py": [
+    "file",
+    8181,
+    "venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib"
+  ],
+  "_envs.py": [
+    "file",
+    7435,
+    "venv\\Lib\\site-packages\\pip\\_internal\\metadata\\importlib"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\models": [
+    "directory",
+    49708,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "candidate.py": [
+    "file",
+    990,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "direct_url.py": [
+    "file",
+    6931,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "format_control.py": [
+    "file",
+    2520,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "installation_report.py": [
+    "file",
+    2609,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "link.py": [
+    "file",
+    20819,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "scheme.py": [
+    "file",
+    738,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "search_scope.py": [
+    "file",
+    4643,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "selection_prefs.py": [
+    "file",
+    1907,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "target_python.py": [
+    "file",
+    3858,
+    "venv\\Lib\\site-packages\\pip\\_internal\\models"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\network": [
+    "directory",
+    60941,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "auth.py": [
+    "file",
+    10187,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "lazy_wheel.py": [
+    "file",
+    7638,
+    "venv\\Lib\\site-packages\\pip\\_internal\\network"
+  ],
+  "session.py": [
+    "file",
+    18607,
+    "venv\\Lib\\site-packages\\pip\\_internal\\network"
+  ],
+  "utils.py": [
+    "file",
+    4355,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "xmlrpc.py": [
+    "file",
+    1791,
+    "venv\\Lib\\site-packages\\pip\\_internal\\network"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\operations": [
+    "directory",
+    89081,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "prepare.py": [
+    "file",
+    28868,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build": [
+    "directory",
+    14783,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal\\operations"
+  ],
+  "build_tracker.py": [
+    "file",
+    4133,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build"
+  ],
+  "metadata.py": [
+    "file",
+    5889,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "metadata_editable.py": [
+    "file",
+    1474,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build"
+  ],
+  "metadata_legacy.py": [
+    "file",
+    2198,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build"
+  ],
+  "wheel_editable.py": [
+    "file",
+    1417,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build"
+  ],
+  "wheel_legacy.py": [
+    "file",
+    3064,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations\\build"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\operations\\install": [
+    "directory",
+    28808,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal\\operations"
+  ],
+  "editable_legacy.py": [
+    "file",
+    1282,
+    "venv\\Lib\\site-packages\\pip\\_internal\\operations\\install"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\req": [
+    "directory",
+    99686,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "constructors.py": [
+    "file",
+    16610,
+    "venv\\Lib\\site-packages\\pip\\_internal\\req"
+  ],
+  "req_file.py": [
+    "file",
+    17872,
+    "venv\\Lib\\site-packages\\pip\\_internal\\req"
+  ],
+  "req_install.py": [
+    "file",
+    33084,
+    "venv\\Lib\\site-packages\\pip\\_internal\\req"
+  ],
+  "req_set.py": [
+    "file",
+    4704,
+    "venv\\Lib\\site-packages\\pip\\_internal\\req"
+  ],
+  "req_uninstall.py": [
+    "file",
+    24678,
+    "venv\\Lib\\site-packages\\pip\\_internal\\req"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\resolution": [
+    "directory",
+    112470,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\legacy": [
+    "directory",
+    24128,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal\\resolution"
+  ],
+  "resolver.py": [
+    "file",
+    11642,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib": [
+    "directory",
+    87759,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal\\resolution"
+  ],
+  "candidates.py": [
+    "file",
+    18969,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "factory.py": [
+    "file",
+    27845,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "found_candidates.py": [
+    "file",
+    5705,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "provider.py": [
+    "file",
+    9824,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "reporter.py": [
+    "file",
+    3100,
+    "venv\\Lib\\site-packages\\pip\\_internal\\resolution\\resolvelib"
+  ],
+  "requirements.py": [
+    "file",
+    3264,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\utils": [
+    "directory",
+    118780,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "appdirs.py": [
+    "file",
+    1665,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "compat.py": [
+    "file",
+    1286,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "compatibility_tags.py": [
+    "file",
+    5377,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "datetime.py": [
+    "file",
+    242,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "deprecation.py": [
+    "file",
+    3627,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "direct_url_helpers.py": [
+    "file",
+    3206,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "egg_link.py": [
+    "file",
+    2118,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "encoding.py": [
+    "file",
+    1169,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "entrypoints.py": [
+    "file",
+    3064,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "filesystem.py": [
+    "file",
+    5122,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "filetypes.py": [
+    "file",
+    716,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "glibc.py": [
+    "file",
+    3113,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "hashes.py": [
+    "file",
+    5118,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "inject_securetransport.py": [
+    "file",
+    795,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "logging.py": [
+    "file",
+    1232,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "misc.py": [
+    "file",
+    22343,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "models.py": [
+    "file",
+    35288,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "packaging.py": [
+    "file",
+    2108,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "setuptools_build.py": [
+    "file",
+    4435,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "subprocess.py": [
+    "file",
+    9200,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "temp_dir.py": [
+    "file",
+    7702,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "unpacking.py": [
+    "file",
+    8821,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "urls.py": [
+    "file",
+    1759,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "virtualenv.py": [
+    "file",
+    3456,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "_jaraco_text.py": [
+    "file",
+    3351,
+    "venv\\Lib\\site-packages\\pip\\_internal\\utils"
+  ],
+  "_log.py": [
+    "file",
+    43,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_internal\\vcs": [
+    "directory",
+    62015,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_internal"
+  ],
+  "bazaar.py": [
+    "file",
+    3519,
+    "venv\\Lib\\site-packages\\pip\\_internal\\vcs"
+  ],
+  "git.py": [
+    "file",
+    18116,
+    "venv\\Lib\\site-packages\\pip\\_internal\\vcs"
+  ],
+  "mercurial.py": [
+    "file",
+    5244,
+    "venv\\Lib\\site-packages\\pip\\_internal\\vcs"
+  ],
+  "subversion.py": [
+    "file",
+    11729,
+    "venv\\Lib\\site-packages\\pip\\_internal\\vcs"
+  ],
+  "versioncontrol.py": [
+    "file",
+    22811,
+    "venv\\Lib\\site-packages\\pip\\_internal\\vcs"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor": [
+    "directory",
+    5927459,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip"
+  ],
+  "six.py": [
+    "file",
+    34665,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages"
+  ],
+  "typing_extensions.py": [
+    "file",
+    87149,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "vendor.txt": [
+    "file",
+    16,
+    "venv\\Lib\\site-packages\\wheel\\vendored"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol": [
+    "directory",
+    48131,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "adapter.py": [
+    "file",
+    5033,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "controller.py": [
+    "file",
+    16416,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "filewrapper.py": [
+    "file",
+    3946,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "heuristics.py": [
+    "file",
+    4154,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "serialize.py": [
+    "file",
+    7105,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "wrapper.py": [
+    "file",
+    774,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "_cmd.py": [
+    "file",
+    1379,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\caches": [
+    "directory",
+    6546,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol"
+  ],
+  "file_cache.py": [
+    "file",
+    5271,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\caches"
+  ],
+  "redis_cache.py": [
+    "file",
+    1033,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\caches"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\certifi": [
+    "directory",
+    283580,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "cacert.pem": [
+    "file",
+    278952,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\certifi"
+  ],
+  "core.py": [
+    "file",
+    9397,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\chardet": [
+    "directory",
+    1107888,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "big5freq.py": [
+    "file",
+    31274,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "big5prober.py": [
+    "file",
+    1763,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "chardistribution.py": [
+    "file",
+    10032,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "charsetgroupprober.py": [
+    "file",
+    3915,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "charsetprober.py": [
+    "file",
+    5420,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "codingstatemachine.py": [
+    "file",
+    3732,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "codingstatemachinedict.py": [
+    "file",
+    542,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "cp949prober.py": [
+    "file",
+    1860,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "enums.py": [
+    "file",
+    1683,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "escprober.py": [
+    "file",
+    4006,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "escsm.py": [
+    "file",
+    12176,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "eucjpprober.py": [
+    "file",
+    3934,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "euckrfreq.py": [
+    "file",
+    13566,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "euckrprober.py": [
+    "file",
+    1753,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "euctwfreq.py": [
+    "file",
+    36913,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "euctwprober.py": [
+    "file",
+    1753,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "gb2312freq.py": [
+    "file",
+    20735,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "gb2312prober.py": [
+    "file",
+    1759,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "hebrewprober.py": [
+    "file",
+    14537,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "jisfreq.py": [
+    "file",
+    25796,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "johabfreq.py": [
+    "file",
+    42498,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "johabprober.py": [
+    "file",
+    1752,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "jpcntx.py": [
+    "file",
+    27055,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langbulgarianmodel.py": [
+    "file",
+    104562,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langgreekmodel.py": [
+    "file",
+    98484,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langhebrewmodel.py": [
+    "file",
+    98196,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langhungarianmodel.py": [
+    "file",
+    101363,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langrussianmodel.py": [
+    "file",
+    128035,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langthaimodel.py": [
+    "file",
+    102774,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "langturkishmodel.py": [
+    "file",
+    95372,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "latin1prober.py": [
+    "file",
+    5380,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "macromanprober.py": [
+    "file",
+    6077,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "mbcharsetprober.py": [
+    "file",
+    3715,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "mbcsgroupprober.py": [
+    "file",
+    2131,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "mbcssm.py": [
+    "file",
+    30391,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "resultdict.py": [
+    "file",
+    402,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "sbcharsetprober.py": [
+    "file",
+    6400,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "sbcsgroupprober.py": [
+    "file",
+    4137,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "sjisprober.py": [
+    "file",
+    4007,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "universaldetector.py": [
+    "file",
+    14848,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "utf1632prober.py": [
+    "file",
+    8505,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "utf8prober.py": [
+    "file",
+    2812,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "version.py": [
+    "file",
+    16295,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\cli": [
+    "directory",
+    3242,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "chardetect.py": [
+    "file",
+    3242,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\cli"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\metadata": [
+    "directory",
+    13560,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\chardet"
+  ],
+  "languages.py": [
+    "file",
+    13560,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\chardet\\metadata"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\colorama": [
+    "directory",
+    57543,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "ansi.py": [
+    "file",
+    6906,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "ansitowin32.py": [
+    "file",
+    11128,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama"
+  ],
+  "initialise.py": [
+    "file",
+    3325,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama"
+  ],
+  "win32.py": [
+    "file",
+    6181,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama"
+  ],
+  "winterm.py": [
+    "file",
+    7134,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests": [
+    "directory",
+    26987,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\colorama"
+  ],
+  "ansitowin32_test.py": [
+    "file",
+    10678,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests"
+  ],
+  "ansi_test.py": [
+    "file",
+    2839,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests"
+  ],
+  "initialise_test.py": [
+    "file",
+    6741,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests"
+  ],
+  "isatty_test.py": [
+    "file",
+    1866,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests"
+  ],
+  "winterm_test.py": [
+    "file",
+    3709,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\colorama\\tests"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\distlib": [
+    "directory",
+    1139219,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "database.py": [
+    "file",
+    51697,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "locators.py": [
+    "file",
+    51991,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "manifest.py": [
+    "file",
+    14811,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "markers.py": [
+    "file",
+    8161,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "resources.py": [
+    "file",
+    10820,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "scripts.py": [
+    "file",
+    18102,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "t32.exe": [
+    "file",
+    97792,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "t64-arm.exe": [
+    "file",
+    182784,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "t64.exe": [
+    "file",
+    108032,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "util.py": [
+    "file",
+    621,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "w32.exe": [
+    "file",
+    91648,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "w64-arm.exe": [
+    "file",
+    168448,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "w64.exe": [
+    "file",
+    101888,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distlib"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\distro": [
+    "directory",
+    50375,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "distro.py": [
+    "file",
+    49330,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\distro"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\idna": [
+    "directory",
+    270310,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "codec.py": [
+    "file",
+    3374,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\idna"
+  ],
+  "idnadata.py": [
+    "file",
+    44375,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\idna"
+  ],
+  "intranges.py": [
+    "file",
+    1881,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\idna"
+  ],
+  "package_data.py": [
+    "file",
+    21,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\idna"
+  ],
+  "uts46data.py": [
+    "file",
+    206539,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\idna"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\msgpack": [
+    "directory",
+    42836,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "ext.py": [
+    "file",
+    6079,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\msgpack"
+  ],
+  "fallback.py": [
+    "file",
+    34544,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\msgpack"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\packaging": [
+    "directory",
+    96292,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "specifiers.py": [
+    "file",
+    39047,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "tags.py": [
+    "file",
+    18065,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "_manylinux.py": [
+    "file",
+    8813,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "_musllinux.py": [
+    "file",
+    2524,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "_structures.py": [
+    "file",
+    1431,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "__about__.py": [
+    "file",
+    661,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\packaging"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pkg_resources": [
+    "directory",
+    109364,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\platformdirs": [
+    "directory",
+    58194,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "android.py": [
+    "file",
+    4068,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs"
+  ],
+  "api.py": [
+    "file",
+    4910,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs"
+  ],
+  "macos.py": [
+    "file",
+    2655,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs"
+  ],
+  "unix.py": [
+    "file",
+    6911,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs"
+  ],
+  "windows.py": [
+    "file",
+    6596,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pygments": [
+    "directory",
+    489839,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "cmdline.py": [
+    "file",
+    23685,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "console.py": [
+    "file",
+    99218,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "filter.py": [
+    "file",
+    1938,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "formatter.py": [
+    "file",
+    4178,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "lexer.py": [
+    "file",
+    34618,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "modeline.py": [
+    "file",
+    986,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "plugin.py": [
+    "file",
+    2591,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "regexopt.py": [
+    "file",
+    3072,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "scanner.py": [
+    "file",
+    3092,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "sphinxext.py": [
+    "file",
+    6882,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "style.py": [
+    "file",
+    27073,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "token.py": [
+    "file",
+    6184,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "unistring.py": [
+    "file",
+    63223,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\filters": [
+    "directory",
+    40386,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters": [
+    "directory",
+    135949,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "bbcode.py": [
+    "file",
+    3314,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "groff.py": [
+    "file",
+    5094,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "html.py": [
+    "file",
+    35610,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "img.py": [
+    "file",
+    21938,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "irc.py": [
+    "file",
+    4981,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "latex.py": [
+    "file",
+    19351,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "other.py": [
+    "file",
+    5073,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "pangomarkup.py": [
+    "file",
+    2212,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "rtf.py": [
+    "file",
+    5014,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "svg.py": [
+    "file",
+    7335,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "terminal.py": [
+    "file",
+    4674,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "terminal256.py": [
+    "file",
+    11753,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\formatters"
+  ],
+  "_mapping.py": [
+    "file",
+    72281,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers": [
+    "directory",
+    137835,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "python.py": [
+    "file",
+    53424,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\lexers"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\styles": [
+    "directory",
+    3700,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\pygments"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing": [
+    "directory",
+    385395,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "actions.py": [
+    "file",
+    6567,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "common.py": [
+    "file",
+    13387,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "helpers.py": [
+    "file",
+    38646,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "results.py": [
+    "file",
+    26692,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "testing.py": [
+    "file",
+    13488,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "unicode.py": [
+    "file",
+    10646,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\diagram": [
+    "directory",
+    24215,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\pyparsing"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks": [
+    "directory",
+    24022,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "_impl.py": [
+    "file",
+    11920,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks\\_in_process": [
+    "directory",
+    11473,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks"
+  ],
+  "_in_process.py": [
+    "file",
+    10927,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\pyproject_hooks\\_in_process"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\requests": [
+    "directory",
+    179251,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "adapters.py": [
+    "file",
+    19697,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "certs.py": [
+    "file",
+    575,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "cookies.py": [
+    "file",
+    18560,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "hooks.py": [
+    "file",
+    733,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "packages.py": [
+    "file",
+    695,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "sessions.py": [
+    "file",
+    30373,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "structures.py": [
+    "file",
+    2912,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "_internal_utils.py": [
+    "file",
+    1495,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "__version__.py": [
+    "file",
+    435,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\requests"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib": [
+    "directory",
+    33639,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "providers.py": [
+    "file",
+    5871,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib"
+  ],
+  "reporters.py": [
+    "file",
+    1601,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib"
+  ],
+  "resolvers.py": [
+    "file",
+    20511,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib"
+  ],
+  "structs.py": [
+    "file",
+    4963,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\compat": [
+    "directory",
+    156,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib"
+  ],
+  "collections_abc.py": [
+    "file",
+    156,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\resolvelib\\compat"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\rich": [
+    "directory",
+    891678,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "abc.py": [
+    "file",
+    5140,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "align.py": [
+    "file",
+    10368,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "bar.py": [
+    "file",
+    3264,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "box.py": [
+    "file",
+    9842,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "cells.py": [
+    "file",
+    4509,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "color.py": [
+    "file",
+    18224,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "color_triplet.py": [
+    "file",
+    1054,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "columns.py": [
+    "file",
+    7131,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "constrain.py": [
+    "file",
+    1288,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "containers.py": [
+    "file",
+    5497,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "control.py": [
+    "file",
+    6630,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "default_styles.py": [
+    "file",
+    8082,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "diagnose.py": [
+    "file",
+    972,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "emoji.py": [
+    "file",
+    2501,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "errors.py": [
+    "file",
+    3589,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "filesize.py": [
+    "file",
+    2508,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "file_proxy.py": [
+    "file",
+    1683,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "highlighter.py": [
+    "file",
+    9584,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "json.py": [
+    "file",
+    5032,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "jupyter.py": [
+    "file",
+    3252,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "layout.py": [
+    "file",
+    14007,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "live.py": [
+    "file",
+    14273,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "live_render.py": [
+    "file",
+    3667,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "markup.py": [
+    "file",
+    8198,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "measure.py": [
+    "file",
+    5305,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "padding.py": [
+    "file",
+    4970,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "pager.py": [
+    "file",
+    828,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "palette.py": [
+    "file",
+    3396,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "panel.py": [
+    "file",
+    10574,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "pretty.py": [
+    "file",
+    35852,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "progress.py": [
+    "file",
+    59706,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "progress_bar.py": [
+    "file",
+    8165,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "prompt.py": [
+    "file",
+    11303,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "protocol.py": [
+    "file",
+    1391,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "region.py": [
+    "file",
+    166,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "repr.py": [
+    "file",
+    4431,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "rule.py": [
+    "file",
+    4602,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "scope.py": [
+    "file",
+    2843,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "screen.py": [
+    "file",
+    1591,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "segment.py": [
+    "file",
+    24247,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "spinner.py": [
+    "file",
+    4339,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "status.py": [
+    "file",
+    4425,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "styled.py": [
+    "file",
+    1258,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "syntax.py": [
+    "file",
+    35173,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "table.py": [
+    "file",
+    39684,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "terminal_theme.py": [
+    "file",
+    3370,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "text.py": [
+    "file",
+    45525,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "theme.py": [
+    "file",
+    3777,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "themes.py": [
+    "file",
+    102,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "traceback.py": [
+    "file",
+    29604,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "tree.py": [
+    "file",
+    9169,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_cell_widths.py": [
+    "file",
+    10096,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_emoji_codes.py": [
+    "file",
+    140235,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_emoji_replace.py": [
+    "file",
+    1064,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_export_format.py": [
+    "file",
+    2100,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_extension.py": [
+    "file",
+    265,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_fileno.py": [
+    "file",
+    799,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_inspect.py": [
+    "file",
+    9695,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_log_render.py": [
+    "file",
+    3225,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_loop.py": [
+    "file",
+    1236,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_null_file.py": [
+    "file",
+    1387,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_palettes.py": [
+    "file",
+    7063,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_pick.py": [
+    "file",
+    423,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_ratio.py": [
+    "file",
+    5472,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_spinners.py": [
+    "file",
+    19919,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_stack.py": [
+    "file",
+    351,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_timer.py": [
+    "file",
+    417,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_win32_console.py": [
+    "file",
+    22820,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_windows.py": [
+    "file",
+    1926,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_windows_renderer.py": [
+    "file",
+    2783,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "_wrap.py": [
+    "file",
+    1840,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\rich"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity": [
+    "directory",
+    55220,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "after.py": [
+    "file",
+    1682,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "before.py": [
+    "file",
+    1562,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "before_sleep.py": [
+    "file",
+    2372,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "nap.py": [
+    "file",
+    1383,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "retry.py": [
+    "file",
+    22003,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "stop.py": [
+    "file",
+    3086,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "tornadoweb.py": [
+    "file",
+    2142,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "wait.py": [
+    "file",
+    5403,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "_asyncio.py": [
+    "file",
+    3551,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "_utils.py": [
+    "file",
+    2179,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\tenacity"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\tomli": [
+    "directory",
+    26226,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "_parser.py": [
+    "file",
+    9399,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "_re.py": [
+    "file",
+    2943,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli"
+  ],
+  "_types.py": [
+    "file",
+    254,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3": [
+    "directory",
+    395604,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "connection.py": [
+    "file",
+    4901,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "connectionpool.py": [
+    "file",
+    39990,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "fields.py": [
+    "file",
+    8579,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "filepost.py": [
+    "file",
+    2440,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "poolmanager.py": [
+    "file",
+    19752,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "request.py": [
+    "file",
+    3997,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "response.py": [
+    "file",
+    3510,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "_collections.py": [
+    "file",
+    743,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata"
+  ],
+  "_version.py": [
+    "file",
+    64,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib": [
+    "directory",
+    106701,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "appengine.py": [
+    "file",
+    11036,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "ntlmpool.py": [
+    "file",
+    4528,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "pyopenssl.py": [
+    "file",
+    17081,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "securetransport.py": [
+    "file",
+    34448,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "socks.py": [
+    "file",
+    7097,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "_appengine_environ.py": [
+    "file",
+    957,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport": [
+    "directory",
+    31554,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib"
+  ],
+  "bindings.py": [
+    "file",
+    17632,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport"
+  ],
+  "low_level.py": [
+    "file",
+    13922,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages": [
+    "directory",
+    41425,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports": [
+    "directory",
+    6760,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages"
+  ],
+  "makefile.py": [
+    "file",
+    1417,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports"
+  ],
+  "weakref_finalize.py": [
+    "file",
+    5343,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util": [
+    "directory",
+    97366,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor\\urllib3"
+  ],
+  "proxy.py": [
+    "file",
+    1605,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "queue.py": [
+    "file",
+    498,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "ssltransport.py": [
+    "file",
+    6895,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "ssl_.py": [
+    "file",
+    17177,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "ssl_match_hostname.py": [
+    "file",
+    5758,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "timeout.py": [
+    "file",
+    10168,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "url.py": [
+    "file",
+    14296,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util"
+  ],
+  "venv\\Lib\\site-packages\\pip\\_vendor\\webencodings": [
+    "directory",
+    31733,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pip\\_vendor"
+  ],
+  "labels.py": [
+    "file",
+    8979,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\webencodings"
+  ],
+  "mklabels.py": [
+    "file",
+    1305,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\webencodings"
+  ],
+  "tests.py": [
+    "file",
+    6563,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\webencodings"
+  ],
+  "x_user_defined.py": [
+    "file",
+    4307,
+    "venv\\Lib\\site-packages\\pip\\_vendor\\webencodings"
+  ],
+  "venv\\Lib\\site-packages\\pip-23.2.1.dist-info": [
+    "directory",
+    88050,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "AUTHORS.txt": [
+    "file",
+    10082,
+    "venv\\Lib\\site-packages\\pip-23.2.1.dist-info"
+  ],
+  "entry_points.txt": [
+    "file",
+    104,
+    "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info"
+  ],
+  "INSTALLER": [
+    "file",
+    5,
+    "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info"
+  ],
+  "LICENSE.txt": [
+    "file",
+    1107,
+    "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info"
+  ],
+  "METADATA": [
+    "file",
+    2051,
+    "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info"
+  ],
+  "RECORD": [
+    "file",
+    4249,
+    "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info"
+  ],
+  "top_level.txt": [
+    "file",
+    41,
+    "venv\\Lib\\site-packages\\setuptools-68.0.0.dist-info"
+  ],
+  "WHEEL": [
+    "file",
+    81,
+    "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources": [
+    "directory",
+    1229751,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\extern": [
+    "directory",
+    6754,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\extern\\__pycache__": [
+    "directory",
+    4312,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\extern"
+  ],
+  "__init__.cpython-311.pyc": [
+    "file",
+    11316,
+    "venv\\Lib\\site-packages\\_distutils_hack\\__pycache__"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor": [
+    "directory",
+    953386,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources"
+  ],
+  "zipp.py": [
+    "file",
+    8425,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources": [
+    "directory",
+    29054,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor"
+  ],
+  "readers.py": [
+    "file",
+    3581,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "simple.py": [
+    "file",
+    2576,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "_adapters.py": [
+    "file",
+    4504,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "_common.py": [
+    "file",
+    5457,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "_itertools.py": [
+    "file",
+    884,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "_legacy.py": [
+    "file",
+    3481,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco": [
+    "directory",
+    98861,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor"
+  ],
+  "context.py": [
+    "file",
+    7460,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco"
+  ],
+  "functools.py": [
+    "file",
+    15053,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text": [
+    "directory",
+    42136,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__pycache__": [
+    "directory",
+    26610,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__pycache__": [
+    "directory",
+    34209,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco"
+  ],
+  "context.cpython-311.pyc": [
+    "file",
+    12006,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__pycache__"
+  ],
+  "functools.cpython-311.pyc": [
+    "file",
+    21996,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__pycache__"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools": [
+    "directory",
+    369511,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor"
+  ],
+  "more.py": [
+    "file",
+    117959,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools"
+  ],
+  "recipes.py": [
+    "file",
+    16256,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__pycache__": [
+    "directory",
+    208971,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools"
+  ],
+  "more.cpython-311.pyc": [
+    "file",
+    171795,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__pycache__"
+  ],
+  "recipes.cpython-311.pyc": [
+    "file",
+    36797,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__pycache__"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging": [
+    "directory",
+    297669,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor"
+  ],
+  "_elffile.py": [
+    "file",
+    3266,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "_tokenizer.py": [
+    "file",
+    5148,
+    "venv\\Lib\\site-packages\\wheel\\vendored\\packaging"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__": [
+    "directory",
+    159650,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging"
+  ],
+  "markers.cpython-311.pyc": [
+    "file",
+    12029,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "requirements.cpython-311.pyc": [
+    "file",
+    5090,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "specifiers.cpython-311.pyc": [
+    "file",
+    41158,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "tags.cpython-311.pyc": [
+    "file",
+    23511,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "utils.cpython-311.pyc": [
+    "file",
+    6819,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "version.cpython-311.pyc": [
+    "file",
+    322,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__pycache__"
+  ],
+  "_elffile.cpython-311.pyc": [
+    "file",
+    5490,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "_manylinux.cpython-311.pyc": [
+    "file",
+    10342,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "_musllinux.cpython-311.pyc": [
+    "file",
+    5146,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "_parser.cpython-311.pyc": [
+    "file",
+    16048,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "_structures.cpython-311.pyc": [
+    "file",
+    3694,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "_tokenizer.cpython-311.pyc": [
+    "file",
+    8671,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs": [
+    "directory",
+    69588,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__pycache__": [
+    "directory",
+    30318,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs"
+  ],
+  "api.cpython-311.pyc": [
+    "file",
+    7193,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__pycache__"
+  ],
+  "windows.cpython-311.pyc": [
+    "file",
+    9971,
+    "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\platformdirs\\__pycache__"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__": [
+    "directory",
+    200,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\pkg_resources\\__pycache__": [
+    "directory",
+    160184,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\pkg_resources"
+  ],
+  "venv\\Lib\\site-packages\\setuptools": [
+    "directory",
+    2136536,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "archive_util.py": [
+    "file",
+    8572,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "build_meta.py": [
+    "file",
+    19778,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "cli-32.exe": [
+    "file",
+    11776,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "cli-64.exe": [
+    "file",
+    14336,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "cli-arm64.exe": [
+    "file",
+    13824,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "cli.exe": [
+    "file",
+    11776,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "depends.py": [
+    "file",
+    5499,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "dep_util.py": [
+    "file",
+    3414,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "discovery.py": [
+    "file",
+    21087,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "dist.py": [
+    "file",
+    50174,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "extension.py": [
+    "file",
+    10270,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "glob.py": [
+    "file",
+    4873,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "gui-32.exe": [
+    "file",
+    11776,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "gui-64.exe": [
+    "file",
+    14336,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "gui-arm64.exe": [
+    "file",
+    13824,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "gui.exe": [
+    "file",
+    11776,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "installer.py": [
+    "file",
+    4926,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "launch.py": [
+    "file",
+    812,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "monkey.py": [
+    "file",
+    4697,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "msvc.py": [
+    "file",
+    47345,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "namespaces.py": [
+    "file",
+    3093,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "package_index.py": [
+    "file",
+    38349,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "py312compat.py": [
+    "file",
+    330,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "sandbox.py": [
+    "file",
+    14349,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "script (dev).tmpl": [
+    "file",
+    218,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "script.tmpl": [
+    "file",
+    138,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "unicode_utils.py": [
+    "file",
+    941,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "warnings.py": [
+    "file",
+    3664,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "windows_support.py": [
+    "file",
+    718,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "_entry_points.py": [
+    "file",
+    2282,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "_imp.py": [
+    "file",
+    2395,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "_importlib.py": [
+    "file",
+    1466,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "_normalization.py": [
+    "file",
+    3706,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "_path.py": [
+    "file",
+    1056,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "_reqs.py": [
+    "file",
+    882,
+    "venv\\Lib\\site-packages\\setuptools"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\command": [
+    "directory",
+    265604,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools"
+  ],
+  "alias.py": [
+    "file",
+    2381,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "bdist_egg.py": [
+    "file",
+    16596,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "bdist_rpm.py": [
+    "file",
+    22013,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "build.py": [
+    "file",
+    5584,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "build_clib.py": [
+    "file",
+    7684,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "build_ext.py": [
+    "file",
+    31503,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "build_py.py": [
+    "file",
+    16537,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "develop.py": [
+    "file",
+    6744,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "dist_info.py": [
+    "file",
+    4195,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "easy_install.py": [
+    "file",
+    86117,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "editable_wheel.py": [
+    "file",
+    31965,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "egg_info.py": [
+    "file",
+    27278,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "install_egg_info.py": [
+    "file",
+    2788,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "install_lib.py": [
+    "file",
+    8409,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "install_scripts.py": [
+    "file",
+    1932,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "launcher manifest.xml": [
+    "file",
+    628,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "register.py": [
+    "file",
+    11817,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "rotate.py": [
+    "file",
+    2128,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "saveopts.py": [
+    "file",
+    658,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "setopt.py": [
+    "file",
+    5086,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "test.py": [
+    "file",
+    8102,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "upload.py": [
+    "file",
+    7491,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "upload_docs.py": [
+    "file",
+    7690,
+    "venv\\Lib\\site-packages\\setuptools\\command"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\config": [
+    "directory",
+    374323,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools"
+  ],
+  "expand.py": [
+    "file",
+    16353,
+    "venv\\Lib\\site-packages\\setuptools\\config"
+  ],
+  "pyprojecttoml.py": [
+    "file",
+    17396,
+    "venv\\Lib\\site-packages\\setuptools\\config"
+  ],
+  "setupcfg.py": [
+    "file",
+    26184,
+    "venv\\Lib\\site-packages\\setuptools\\config"
+  ],
+  "_apply_pyprojecttoml.py": [
+    "file",
+    13755,
+    "venv\\Lib\\site-packages\\setuptools\\config"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject": [
+    "directory",
+    299137,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\config"
+  ],
+  "error_reporting.py": [
+    "file",
+    11266,
+    "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject"
+  ],
+  "extra_validations.py": [
+    "file",
+    1153,
+    "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject"
+  ],
+  "fastjsonschema_exceptions.py": [
+    "file",
+    1612,
+    "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject"
+  ],
+  "fastjsonschema_validations.py": [
+    "file",
+    274907,
+    "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject"
+  ],
+  "formats.py": [
+    "file",
+    9161,
+    "venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\extern": [
+    "directory",
+    2527,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_distutils": [
+    "directory",
+    607688,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools"
+  ],
+  "bcppcompiler.py": [
+    "file",
+    14721,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "ccompiler.py": [
+    "file",
+    48643,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "cmd.py": [
+    "file",
+    17861,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "config.py": [
+    "file",
+    13077,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "cygwinccompiler.py": [
+    "file",
+    11924,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "dir_util.py": [
+    "file",
+    8072,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "fancy_getopt.py": [
+    "file",
+    17899,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "filelist.py": [
+    "file",
+    13715,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "file_util.py": [
+    "file",
+    8212,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "log.py": [
+    "file",
+    1201,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "msvc9compiler.py": [
+    "file",
+    30188,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "msvccompiler.py": [
+    "file",
+    23577,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "py38compat.py": [
+    "file",
+    217,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "py39compat.py": [
+    "file",
+    639,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "spawn.py": [
+    "file",
+    3495,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "sysconfig.py": [
+    "file",
+    18928,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "text_file.py": [
+    "file",
+    12085,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "unixccompiler.py": [
+    "file",
+    15601,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "versionpredicate.py": [
+    "file",
+    5205,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "_functools.py": [
+    "file",
+    2895,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata"
+  ],
+  "_macos_compat.py": [
+    "file",
+    239,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "_msvccompiler.py": [
+    "file",
+    19616,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_distutils\\command": [
+    "directory",
+    208021,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_distutils"
+  ],
+  "bdist.py": [
+    "file",
+    5408,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "bdist_dumb.py": [
+    "file",
+    4665,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "build_scripts.py": [
+    "file",
+    5604,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "clean.py": [
+    "file",
+    2594,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "install_data.py": [
+    "file",
+    2762,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "install_headers.py": [
+    "file",
+    1180,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "py37compat.py": [
+    "file",
+    672,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "_framework_compat.py": [
+    "file",
+    1614,
+    "venv\\Lib\\site-packages\\setuptools\\_distutils\\command"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor": [
+    "directory",
+    517276,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools"
+  ],
+  "ordered_set.py": [
+    "file",
+    15130,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata": [
+    "directory",
+    40946,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "_meta.py": [
+    "file",
+    1165,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata"
+  ],
+  "_py39compat.py": [
+    "file",
+    1098,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata"
+  ],
+  "_text.py": [
+    "file",
+    2166,
+    "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_resources": [
+    "directory",
+    29054,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco": [
+    "directory",
+    38030,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text": [
+    "directory",
+    15517,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools": [
+    "directory",
+    134297,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging": [
+    "directory",
+    138019,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli": [
+    "directory",
+    26226,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\setuptools\\_vendor"
+  ],
+  "venv\\Lib\\site-packages\\setuptools-68.0.0.dist-info": [
+    "directory",
+    44800,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "LICENSE": [
+    "file",
+    1023,
+    "venv\\Lib\\site-packages\\setuptools-68.0.0.dist-info"
+  ],
+  "venv\\Lib\\site-packages\\wheel": [
+    "directory",
+    195081,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "bdist_wheel.py": [
+    "file",
+    19868,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "macosx_libfile.py": [
+    "file",
+    16143,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "wheelfile.py": [
+    "file",
+    7674,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "_setuptools_logging.py": [
+    "file",
+    746,
+    "venv\\Lib\\site-packages\\wheel"
+  ],
+  "venv\\Lib\\site-packages\\wheel\\cli": [
+    "directory",
+    23842,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\wheel"
+  ],
+  "convert.py": [
+    "file",
+    9427,
+    "venv\\Lib\\site-packages\\wheel\\cli"
+  ],
+  "pack.py": [
+    "file",
+    4338,
+    "venv\\Lib\\site-packages\\wheel\\cli"
+  ],
+  "unpack.py": [
+    "file",
+    1021,
+    "venv\\Lib\\site-packages\\wheel\\cli"
+  ],
+  "venv\\Lib\\site-packages\\wheel\\vendored": [
+    "directory",
+    119784,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\wheel"
+  ],
+  "venv\\Lib\\site-packages\\wheel\\vendored\\packaging": [
+    "directory",
+    119768,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\wheel\\vendored"
+  ],
+  "venv\\Lib\\site-packages\\wheel-0.40.0.dist-info": [
+    "directory",
+    7597,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "venv\\Lib\\site-packages\\_distutils_hack": [
+    "directory",
+    17659,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "override.py": [
+    "file",
+    44,
+    "venv\\Lib\\site-packages\\_distutils_hack"
+  ],
+  "venv\\Lib\\site-packages\\_distutils_hack\\__pycache__": [
+    "directory",
+    11316,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages\\_distutils_hack"
+  ],
+  "venv\\Lib\\site-packages\\__pycache__": [
+    "directory",
+    6916,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv\\Lib\\site-packages"
+  ],
+  "_virtualenv.cpython-311.pyc": [
+    "file",
+    6916,
+    "venv\\Lib\\site-packages\\__pycache__"
+  ],
+  "venv\\Scripts": [
+    "directory",
+    1410201,
+    "C:\\Users\\user\\PycharmProjects\\sem8\\venv"
+  ],
+  "activate": [
+    "file",
+    2162,
+    "venv\\Scripts"
+  ],
+  "activate.bat": [
+    "file",
+    1015,
+    "venv\\Scripts"
+  ],
+  "activate.fish": [
+    "file",
+    3039,
+    "venv\\Scripts"
+  ],
+  "activate.nu": [
+    "file",
+    2597,
+    "venv\\Scripts"
+  ],
+  "activate.ps1": [
+    "file",
+    1758,
+    "venv\\Scripts"
+  ],
+  "activate_this.py": [
+    "file",
+    1169,
+    "venv\\Scripts"
+  ],
+  "deactivate.bat": [
+    "file",
+    511,
+    "venv\\Scripts"
+  ],
+  "deactivate.nu": [
+    "file",
+    682,
+    "venv\\Scripts"
+  ],
+  "pip-3.11.exe": [
+    "file",
+    108417,
+    "venv\\Scripts"
+  ],
+  "pip.exe": [
+    "file",
+    108417,
+    "venv\\Scripts"
+  ],
+  "pip3.11.exe": [
+    "file",
+    108417,
+    "venv\\Scripts"
+  ],
+  "pip3.exe": [
+    "file",
+    108417,
+    "venv\\Scripts"
+  ],
+  "pydoc.bat": [
+    "file",
+    24,
+    "venv\\Scripts"
+  ],
+  "python.exe": [
+    "file",
+    270608,
+    "venv\\Scripts"
+  ],
+  "pythonw.exe": [
+    "file",
+    259352,
+    "venv\\Scripts"
+  ],
+  "wheel-3.11.exe": [
+    "file",
+    108404,
+    "venv\\Scripts"
+  ],
+  "wheel.exe": [
+    "file",
+    108404,
+    "venv\\Scripts"
+  ],
+  "wheel3.11.exe": [
+    "file",
+    108404,
+    "venv\\Scripts"
+  ],
+  "wheel3.exe": [
+    "file",
+    108404,
+    "venv\\Scripts"
+  ]
+}
