@@ -9,7 +9,7 @@ import pickle
 
 def csv_converter(file):
     with (open(file, 'rb') as file_inp,
-        open(f'{file[:-7]}.csv', 'w') as file_out):
+          open(f'{file[:-7]}.csv', 'w') as file_out):
         data = pickle.load(file_inp)
         head = data.keys()
         import csv
@@ -18,5 +18,6 @@ def csv_converter(file):
         for key, values in data.items():
             a, b = tuple(*values.values())
             writer.writerow([*(values.keys()), a, b])
+
 
 csv_converter('names.pickle')
