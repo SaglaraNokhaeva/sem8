@@ -11,43 +11,27 @@
 import json
 import os
 
-def my_func(source_direct):
+
+def get_dir_size(path='.'):
+    total = 0
+    with os.scandir(path) as it:
+        for entry in it:
+            if entry.is_file():
+                total += entry.stat().st_size
+            elif entry.is_dir():
+                total += get_dir_size(entry.path)
+    return total
+
+def my_func(source_dir):
+    res = {}
+    for path, dirs, files in os.walk(source_dir):
+        # print(path, get_dir_size(path), os.path.abspath(os.path.join(path, os.pardir)))
+        res[path] = ['directory', get_dir_size(path), os.path.abspath(os.path.join(path, os.pardir))]
+        for f in files:
+            # print(path, f, os.path.getsize(os.path.join(path, f)), path)
+            res[f] = ['file',os.path.getsize(os.path.join(path, f)), path]
+    # print(res)
     with open(f'result.json', 'w', encoding='utf-8') as file:
-        my_dict = {}
-        res = []
-        for dir_path, dir_name, file_name in os.walk(source_direct):
-            # print(f'{dir_path = }\n{dir_name = }\n{file_name = }\n{os.path.abspath(os.path.join(dir_path, os.pardir)) = }\n')
-            if dir_path not in my_dict:
-                my_dict[dir_path] = file_name
-                # my_list.append(os.path.abspath(os.path.join(dir_path, os.pardir)))
-        print(my_dict)
-        for key, value in my_dict.items():
-            res.extend([key, 'directiry'])
-            for i in range(len(value)):
-                res.extend([value[i], 'file'])
-
-        json.dump(res, file, ensure_ascii=False, indent=2)
-            # json.dump('\n', file, ensure_ascii=False)
-
-
-
-
-
-
-        # with open(f'result.json', 'w', encoding='utf-8') as file:
-        #     my_list = []
-        #     for dir_path, dir_name, file_name in os.walk(source_direct):
-        #         # print(f'{dir_path = }\n{dir_name = }\n{file_name = }\n{os.path.abspath(os.path.join(dir_path, os.pardir)) = }\n')
-        #         if dir_path not in my_list:
-        #             my_list.append(dir_path)
-        #             # my_list.append(os.path.abspath(os.path.join(dir_path, os.pardir)))
-        #         print(my_list)
-        #         # file.write('\n'.join(dir_path))
-        #         json.dump(dir_path, file, ensure_ascii=False)
-        #         # json.dump('\n', file, ensure_ascii=False)
-
-
-        # if os.path.isfile
-
+        json.dump(res, file, indent=2)
 
 my_func('venv')
